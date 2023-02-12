@@ -102,34 +102,19 @@ body {
   display: flex;
   flex-direction: row;  
 }
-
-.imgs {
-  border-radius: 1dvh;
-  animation-delay: 3000ms;
-  animation-direction: normal;
-  animation-iteration-count: infinite;
-  animation-name: inl;
-  animation-timing-function: linear;
-  animation-duration: 99990ms;
-  margin-left: 2%;
-  position:relative ;
-  height: auto;
-  width: auto;
-}
-
 #in {
-    font-family: monospace ;
+  font-family: monospace ;
     background: transparent;
     font-size: large;
     width: fit-content;
-    animation-delay: 12000ms;
+    animation-delay: 10990ms;
     margin-left: 5%;
     position: absolute;
     font-weight: 600;
     color: rgb(0, 0, 0);
     animation-name: in;
     animation-timing-function: linear;
-    animation-duration: 185000ms;
+    animation-duration: 175000ms;
     animation-play-state:running ;
 }
 
@@ -139,7 +124,7 @@ body {
 
   }
   to {
-    top : -100%;
+    top : -150%;
   }
 }
 
@@ -149,6 +134,23 @@ body {
 
   }
   to {
-    left : -500%;
+    left : -950%;
   }
 }
+  
+  .imgs {
+    animation-iteration-count: 1;
+    animation-play-state:running ;
+    border-radius: 1dvh;
+    animation-delay: 4700ms;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-name: inl;
+    animation-timing-function: linear;
+    animation-duration: 180000ms;
+    margin-left: 2%;
+    position:relative ;
+    height: auto;
+    width: auto;
+  }
+    
