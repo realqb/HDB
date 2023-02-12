@@ -139,12 +139,10 @@ body {
 }
   
   .imgs {
-    animation-iteration-count: 1;
     animation-play-state:running ;
     border-radius: 1dvh;
     animation-delay: 4700ms;
     animation-direction: normal;
-    animation-iteration-count: infinite;
     animation-name: inl;
     animation-timing-function: linear;
     animation-duration: 180000ms;
