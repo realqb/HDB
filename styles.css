@@ -1,0 +1,124 @@
+  * {
+  background-color: black;
+}
+body {
+    background: url("/media/cookie-art.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#p {
+  font-variant: small-caps;
+  font-feature-settings: "isol";
+  padding-top: 1%;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  font-family: monospace;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  display: flex;
+  height: 5vh;
+  padding-bottom: 1%;
+}
+
+#we {
+  margin-left: 80%;
+  margin-bottom: 2vh;
+}
+
+#t {
+  position: absolute;
+  margin-left: 2%;
+  font-size: large;
+  color:rgb(255, 255, 255);
+
+}
+
+#red {
+  width:  12%;
+}
+
+#black {
+  width: 11.7%;
+  transform: rotateY(900deg);
+}
+
+#out {
+  margin-top: 1.4%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 91vh;
+  border-radius: 9px;
+  margin-left: -0.7%;
+  width: 40%;
+  position: relative;
+  overflow-y: hidden;
+
+}
+
+.gallery {
+  border-radius: 2vh;
+  width: 22%;
+  height: 50vh;
+  float: right;
+  overflow: scroll;
+  margin-top: 9vh;
+  margin-right: 1%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: row;  
+}
+
+.imgs {
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: inl;
+  animation-timing-function: linear;
+  animation-duration: 18200ms;
+  margin-left: 2%;
+  position:relative ;
+  height: auto;
+  width: auto;
+}
+
+#in {
+    font-family: monospace ;
+    background: transparent;
+    font-size: large;
+    width: fit-content;
+    animation-delay: 12000ms;
+    margin-left: 5%;
+    position: absolute;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    animation-name: in;
+    animation-timing-function: linear;
+    animation-duration: 185000ms;
+    animation-play-state:running ;
+}
+
+@keyframes in {
+  from {
+    top : 0%;
+
+  }
+  to {
+    top : -100%;
+  }
+}
+
+@keyframes inl {
+  from {
+    left : 0%;
+
+  }
+  to {
+    left : -100%;
+  }
+}
